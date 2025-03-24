@@ -1,0 +1,193 @@
+# yaml-language-server: $schema=./schema/quiz.schema.json
+questions:
+
+  - title: How are you planning to pay?
+    type: select
+    options:
+      - name: Out of Network
+        value: out-of-network
+      - name: Self-Pay/Out of Pocket
+        value: out-of-pocket
+      - name: BCBS
+        value: bcbs
+      - name: United Healthcare
+        value: united-healthcare
+      - name: United Healthcare Community
+        value: united-healthcare-community
+      - name: Healthy Blue
+        value: healthy-blue
+      - name: Aetna
+        value: aetna
+      - name: Cigna
+        value: cigna
+      - name: AmeriHealth
+        value: amerihealth
+      - name: Partners
+        value: partners
+      - name: Alliance
+        value: alliance
+      - name: Carolina Compete
+        value: carolina-compete
+      - name: Trillium
+        value: trillium
+      - name: WellCare
+        value: wellcare
+      - name: Other
+        value: other
+    filtersOn: insurance
+
+  - title: What kind of patient is this for?
+    type: select
+    options:
+    - name: Young Child (5 or younger)
+      value: young-child
+    - name: Child (6-10)
+      value: child
+    - name: Young Adolescent (11-13)
+      value: young-adolescent
+    - name: Teen (14-17)
+      value: teen
+    - name: Adult (18+)
+      value: adult
+    - name: Couple
+      value: couple
+    filtersOn: demographic
+
+  - title: Do you have a telehealth preference?
+    type: select
+    options:
+    - name: Need in person
+      value: in-person
+    - name: Telehealth or in person
+      value: either
+    - name: Need telehealth
+      value: online
+    filtersOn: location
+
+  - title: "Preferred therapist specialties:"
+    type: multi-select
+    options:
+      - name: ADHD
+        value: adhd
+      - name: Alcohol or Marijuana Abuse or Dependence
+        value: substance-abuse
+      - name: Animal Assisted Interventionist
+        value: animal-assisted
+      - name: Anti-colonial
+        value: anti-colonial
+      - name: Anxiety
+        value: anxiety
+      - name: Athletes & Sports Performance
+        value: athletes-sports-performance
+      - name: Attachment-Based Therapy
+        value: attachment-based
+      - name: Autism
+        value: autism
+      - name: Behavioral Addictions
+        value: behavioral-addictions
+      - name: Betrayal trauma and affair management
+        value: betrayal-trauma
+      - name: Bipolar
+        value: bipolar
+      - name: Borderline Personality Disorder
+        value: borderline-personality-disorder
+      - name: Brainspotting
+        value: brainspotting
+      - name: CBT
+        value: cbt
+      - name: Child-Centered Play Therapy
+        value: child-centered-play
+      - name: Child Parent Relationship Therapy (CPRT)
+        value: cprt
+      - name: Conflict avoidance
+        value: conflict-avoidance
+      - name: Couples Therapy
+        value: couples
+      - name: Cultural Specific Issues
+        value: cultural-specific
+      - name: DBT Skills Based
+        value: dbt
+      - name: Depression
+        value: depression
+      - name: Disordered Eating
+        value: disordered-eating
+      - name: Domestic Violence
+        value: domestic-violence
+      - name: Eating Disorders & Body Image
+        value: eating-disorders
+      - name: EMDR
+        value: emdr
+      - name: Gottman Method
+        value: gottman
+      - name: Grief Specialist
+        value: grief
+      - name: Identity Acceptance
+        value: identity-acceptance
+      - name: Internal Family Systems
+        value: internal-family-systems
+      - name: Kink allied
+        value: kink-allied
+      - name: LGBTQIA+ Specialist
+        value: lgbtqia
+      - name: Life Transitions
+        value: life-transitions
+      - name: Marital problems
+        value: marital
+      - name: OCD
+        value: ocd
+      - name: Open/non-monogamous allied
+        value: non-monogamy
+      - name: Parent coaching
+        value: parent-coaching
+      - name: Perinatal Mental Health
+        value: perinatal
+      - name: Phobias
+        value: phobias
+      - name: Polyvagal
+        value: polyvagal
+      - name: Psychodynamic therapy
+        value: psychodynamic
+      - name: Psychosis Treatment
+        value: psychosis
+      - name: Registered Play Therapy
+        value: registered-play
+      - name: Reunification Therapy
+        value: reunification
+      - name: Sandtray Therapy
+        value: sandtray
+      - name: Self esteem
+        value: self-esteem
+      - name: Sex Therapy
+        value: sex
+      - name: Sex worker allied
+        value: sex-worker-allied
+      - name: Somatic experiencing
+        value: somatic
+      - name: Spanish Speaking
+        value: spanish
+      - name: Stress reduction
+        value: stress-reduction
+      - name: TAC Trained Adoption Competency
+        value: tac-trained-adoption
+      - name: Toxic family systems
+        value: toxic-family
+      - name: Transitions
+        value: transitions
+      - name: Trauma Informed
+        value: trauma-informed
+      - name: Trauma Specialist
+        value: trauma
+      - name: TF-CBT
+        value: tf-cbt
+      - name: Triple P Parenting
+        value: triple-p
+    filtersOn: specialty
+
+  - title: When do you need an appointment?
+    type: select
+    options:
+    - name: As soon as possible
+      value: "asap"
+    - name: Willing to wait for right fit
+      value: "wait"
+    filtersOn: available

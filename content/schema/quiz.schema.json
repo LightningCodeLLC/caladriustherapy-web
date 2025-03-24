@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/ogienma/caladriustherapy-web/blob/master/content/schema/quiz.schema.json",
+  "title": "Form",
+  "description": "Form for find a therapist quiz",
+  "type": "object",
+  "properties": {
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "anyOf": [
+          {
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["boolean"]
+              },
+              "filtersOn": {
+                "type": "string",
+                "enum": [""]
+              }
+            },
+            "required": ["title", "type", "filtersOn"]
+          },
+          {
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["select", "multi-select"]
+              },
+              "options": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["name", "value"]
+                }
+              },
+              "filtersOn": {
+                "type": "string",
+                "enum": ["insurance", "demographic", "available", "location", "specialty"]
+              }
+            },
+            "required": ["title", "type", "options", "filtersOn"]
+          }
+        ]
+      }
+    }
+  },
+  "required": ["questions"]
+}

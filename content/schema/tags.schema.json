@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "https://github.com/ogienma/caladriustherapy-web/blob/master/content/schema/tags.schema.json",
+  "title": "Tags",
+  "description": "Tags for Caladrius Therapis finder form",
+  "type": "object",
+  "properties": {
+    "insurance": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "bcbs",
+          "united-healthcare",
+          "united-healthcare-community",
+          "healthy-blue",
+          "aetna",
+          "amerihealth",
+          "partners",
+          "alliance",
+          "carolina-compete",
+          "trillium",
+          "wellcare",
+          "other",
+          "out-of-network",
+          "out-of-pocket",
+          "self-pay",
+          "reduced-rate"
+        ]
+      }
+    },
+    "demographic": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["young-child", "child", "young-adolescent", "teen", "adult", "couple"]
+      }
+    },
+    "available": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["asap", "wait"]
+      }
+    },
+    "location": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["online", "in-person", "either"]
+      }
+    },
+    "specialty": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "adhd",
+          "substance-abuse",
+          "animal-assisted",
+          "anti-colonial",
+          "anxiety",
+          "athletes-sports-performance",
+          "attachment-based",
+          "autism",
+          "behavioral-addictions",
+          "betrayal-trauma",
+          "bipolar",
+          "borderline-personality-disorder",
+          "brainspotting",
+          "cbt",
+          "child-centered-play",
+          "cprt",
+          "conflict-avoidance",
+          "couples",
+          "cultural-specific",
+          "dbt",
+          "depression",
+          "disordered-eating",
+          "domestic-violence",
+          "eating-disorders",
+          "emdr",
+          "gottman",
+          "grief",
+          "identity-acceptance",
+          "internal-family-systems",
+          "kink-allied",
+          "lgbtqia",
+          "life-transitions",
+          "marital",
+          "ocd",
+          "non-monogamy",
+          "parent-coaching",
+          "perinatal",
+          "phobias",
+          "polyvagal",
+          "psychodynamic",
+          "psychosis",
+          "registered-play",
+          "reunification",
+          "sandtray",
+          "self-esteem",
+          "sex",
+          "sex-worker-allied",
+          "somatic",
+          "spanish",
+          "stress-reduction",
+          "tac-trained-adoption",
+          "toxic-family",
+          "transitions",
+          "trauma-informed",
+          "trauma",
+          "tf-cbt",
+          "triple-p",
+          "not-applicable"
+        ]
+      }
+    }
+  },
+  "required": ["insurance", "demographic", "available", "location", "specialty"]
+}

@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=./schema/team.schema.json
 members:
 
   - id: mia-dadian
@@ -19,6 +20,45 @@ members:
          Mia Dadian, LCMHCA is currently pursuing her Registered Play Therapist (RPT) certificate. She has a Bachelor of Arts in Psychology from UNCA and a Master of Science in Counseling and Educational Development from UNCG. She sees children, adolescents, and adults.
        </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-child
+        - child
+        - young-adolescent
+        - teen
+        - adult
+        - couple
+      available:
+        - wait
+        - asap
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - "emdr"
+        - "registered-play"
+        - "child-centered-play"
+        - internal-family-systems
+        - "sandtray"
+        - "cbt"
+        - "not-applicable"
 
   - id: kiam-seymour
     name: Kiam Seymour
@@ -43,7 +83,7 @@ members:
          Kiam Seymour, LCSWA, is a Licensed Clinical Social Work Associate, born and raised in New York. She earned both her Bachelor’s and Master’s degrees in Social Work from Adelphi University. Kiam specializes in working with individuals who have experienced trauma in various forms. She has experience supporting school-aged children, young adults, and adults, helping them navigate life’s challenges and build resilience. She utilizes a combination of psychodynamic therapy and cognitive behavioral therapy (CBT) to explore the “why” behind behaviors and how past experiences shape the present. Through honest, raw conversations, she helps clients develop positive thinking patterns and behaviors that foster growth and healing.
         </em>
       </p>
-    
+
   - id: nicole-brito
     name: Nicole Brito
     letters: LCMHCA
@@ -73,6 +113,50 @@ members:
           Nicole Brito, MA, LCMHCA, NCC graduated from The University of North Carolina at Charlotte with her Master’s of Art in Counseling. She received her Bachelor’s of Arts in Psychology with a minor in Social Work from Winthrop University. Nicole has experience in working with teens, young adults, and adults offering Spanish and English services. She has a special interest in supporting clients with anxiety, body image, disordered eating, multicultural concerns, LGBTQIA+, ADHD, women issues, and life transitions. She is passionate about providing cultural and holistic practices as well as an affirming space for the needs of each client.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - emdr
+        - trauma-informed
+        - sandtray
+        - eating-disorders
+        - ocd
+        - phobias
+        - lgbtqia
+        - spanish
+        - anxiety
+        - disordered-eating
+        - couples
+        - adhd
+        - life-transitions
+        - identity-acceptance
+        - depression
+        - bipolar
+        - not-applicable
 
   - id: elizabeth-riley
     name: Elizabeth Riley
@@ -92,6 +176,50 @@ members:
           Elizabeth Riley, MA, LCMHCA, NCC holds a master’s degree in Clinical Mental Health Counseling from the University of North Carolina at Charlotte. She is a Licensed Clinical Mental Health Counselor Associate and a National Certified Counselor. Elizabeth has five years of counseling experience, and she enjoys working with adults and teens to address a wide variety of presenting issues. Elizabeth is currently offering telehealth sessions for both individuals and couples.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-adolescent
+        - teen
+        - adult
+        - couple
+      available:
+        - wait
+        - asap
+      location:
+        - either
+        - online
+      specialty:
+        - cbt
+        - brainspotting
+        - internal-family-systems
+        - tf-cbt
+        - perinatal
+        - anxiety
+        - depression
+        - eating-disorders
+        - ocd
+        - phobias
+        - borderline-personality-disorder
+        - adhd
+        - attachment-based
+        - sandtray
+        - not-applicable
 
   - id: mylah-chandler
     name: Mylah Chandler
@@ -110,7 +238,50 @@ members:
         <em>
           Mylah Chandler MSW, LCSWA graduated from Tulane University. She provides counseling services for children, adolescents, and young adults and has experience with children and adults with Autism, behavioral issues, cognitive and developmental disorders, anxiety, depression, and trauma related to sexual abuse, domestic violence, relationships, and more.
         </em>
-      </p> 
+      </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-child
+        - child
+        - young-adolescent
+        - teen
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - trauma-informed
+        - anxiety
+        - depression
+        - sandtray
+        - child-centered-play
+        - registered-play
+        - lgbtqia
+        - autism
+        - cultural-specific
+        - brainspotting
+        - not-applicable
 
   - id: kelsey-grant
     name: Kelsey Grant
@@ -137,6 +308,46 @@ members:
         Kelsey Grant graduated from UNC-Charlotte with a B.S. in Psychology and a minor in Statistics. She continued on to receive her M.A. in Clinical Mental Health Counseling. Kelsey is Gottman Level I Certified and is pursuing further education around couples therapy and trauma informed care. Since 2020, Kelsey has worked virtually with clients experiencing Grief, Anxiety, Depression, Relationship Concerns, Uncertainty in Career/Education, Life Transitions, Parenting, Suicidal Ideation and more.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - anxiety
+        - depression
+        - emdr
+        - brainspotting
+        - internal-family-systems
+        - trauma-informed
+        - perinatal
+        - grief
+        - triple-p
+        - gottman
+        - sandtray
+        - cbt
+        - not-applicable
 
   - id: robin-boulware-abraham
     name: Robin Boulware Abraham
@@ -160,6 +371,46 @@ members:
           Robin Boulware-Abraham, MA, LCMHC-A, graduated from the University of North Carolina at Charlotte with her Master's of Art in Counseling and Graduate Certification in Gerontology as well as her Bachelor's of Science in Psychology. Robin specializes in Child Centered play therapy and has experience working with children, adolescents, and adults in various settings. She is working towards becoming a Registered Play Therapist to broaden her training and experience working with children, families, and adults.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-child
+        - child
+        - young-adolescent
+        - teen
+        - adult
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - tf-cbt
+        - brainspotting
+        - cprt
+        - anxiety
+        - depression
+        - sandtray
+        - child-centered-play
+        - registered-play
+        - not-applicable
 
   - id: deerik-bradley
     name: De'Erik Bradley
@@ -218,6 +469,42 @@ members:
           needs of each client.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-adolescent
+        - teen
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - anxiety
+        - depression
+        - athletes-sports-performance
+        - brainspotting
+        - sandtray
+        - cbt
+        - not-applicable
 
   - id: sav-raynor
     name: Sav Raynor
@@ -239,16 +526,64 @@ members:
         My beliefs are greatly influenced by the philosophy that all people are capable of change and growth, and deserve to feel joy in this world. My primary theoretical orientation is grounded in the post-modern, Narrative Therapy approach, which examines the rich experiences of my life and the way I share my story with others and reflectively view it myself. In the words of Anderson and Goolishian, "it is my responsibility as a therapist to cultivate a growing awareness of the dominant (and potentially dominating) stories in our society and to develop ways of collaboratively examining the effects of those stories when I sense them at work in the lives and relationships of the people who consult with me."
       </p>
       <p>
-       I have used much of my teachings of yoga to ground my work with mindfulness, which is proven to help people live more fully and presently, engaged in connecting with themselves and others. I utilize polyvagal theory and somatic experience when working with clients to regulate their nervous systems and communicate their needs in various environments and relationships. I have found this to be particularly powerful when working in the intersections of trauma, neurodivergence, and gender diversity. I have found a passion in serving folks in the queer community, seeking affirming and safe relationships. I provide support to those looking to embrace their authentic selves and loved ones by writing letters for gender-affirming treatment, attuning to unique needs and experiences, and holding an accepting and non-judgmental space to process pain and pleasure. I also have a passion for working with families to promote understanding and compassion for gender-expansive children and have specialized training in providing child-led gender-affirming play therapy.    
+       I have used much of my teachings of yoga to ground my work with mindfulness, which is proven to help people live more fully and presently, engaged in connecting with themselves and others. I utilize polyvagal theory and somatic experience when working with clients to regulate their nervous systems and communicate their needs in various environments and relationships. I have found this to be particularly powerful when working in the intersections of trauma, neurodivergence, and gender diversity. I have found a passion in serving folks in the queer community, seeking affirming and safe relationships. I provide support to those looking to embrace their authentic selves and loved ones by writing letters for gender-affirming treatment, attuning to unique needs and experiences, and holding an accepting and non-judgmental space to process pain and pleasure. I also have a passion for working with families to promote understanding and compassion for gender-expansive children and have specialized training in providing child-led gender-affirming play therapy.
       </p>
       <p>
-       I continue to follow my love for providing mental health care to individuals who seek to learn and embrace themselves and their relationships. I’m working towards a certification in sex therapy, specializing in queer and kink-affirming relationships, relationships with partners who have experienced sexual and incestual trauma, and individuals with medical barriers to sexual fulfillment. I have Level 1 & 2 Gottman Method Couples Therapy training and practice in using Emotion Focused Therapy to empirically support and guide relational work with couples and families who may seek healing, understanding, or pre-commitment work. I am currently participating in an 18-month sex therapy certification program at the Modern Sex Therapy Institute and am a member of the American Association of Sexuality Educators, Counselors, and Therapists. I specialize in working with partners or individuals who struggle with compulsive sexual behaviors, porn addiction, and betrayal trauma. I will help you hold onto hope and healing by guiding you to safely confront feelings of shame, align with integrity to your values and beliefs, and rebuild intimacy with yourself and in your relationships.    
+       I continue to follow my love for providing mental health care to individuals who seek to learn and embrace themselves and their relationships. I’m working towards a certification in sex therapy, specializing in queer and kink-affirming relationships, relationships with partners who have experienced sexual and incestual trauma, and individuals with medical barriers to sexual fulfillment. I have Level 1 & 2 Gottman Method Couples Therapy training and practice in using Emotion Focused Therapy to empirically support and guide relational work with couples and families who may seek healing, understanding, or pre-commitment work. I am currently participating in an 18-month sex therapy certification program at the Modern Sex Therapy Institute and am a member of the American Association of Sexuality Educators, Counselors, and Therapists. I specialize in working with partners or individuals who struggle with compulsive sexual behaviors, porn addiction, and betrayal trauma. I will help you hold onto hope and healing by guiding you to safely confront feelings of shame, align with integrity to your values and beliefs, and rebuild intimacy with yourself and in your relationships.
       </p>
       <p>
         <em>
          Sav spent 6 years at East Carolina University, studying Recreational Therapy in their undergraduate degree, pursuing minors in addiction studies, human development and family relations, and psychology. Sav became interested in the significance of relationships, identity formation, and biopsychosocial-spiritual systems, which led her to pursuing their Master’s in Marriage and Family Therapy and certification in medical family therapy. Sav worked in various clinical settings applying skills from their 200 RYT yoga training, mindfulness, and adventure recreation to the psychological healing of individuals after physical and mental traumas. Sav continues to apply knowledge from the concentration of Medical Family Therapy to help individuals create Biopsychosocial-spiritual balance, as they navigate comorbidities in their encompassing health.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-adolescent
+        - teen
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - internal-family-systems
+        - trauma
+        - perinatal
+        - anxiety
+        - depression
+        - grief
+        - sandtray
+        - child-centered-play
+        - gottman
+        - sex
+        - lgbtqia
+        - substance-abuse
+        - behavioral-addictions
+        - autism
+        - cultural-specific
+        - betrayal-trauma
+        - not-applicable
 
   - id: carlee-wetzler
     name: Carlee Wetzler
@@ -274,6 +609,44 @@ members:
         <em>
         Carlee Wetzler, LCMHCA graduated from Lenoir Rhyne University with a Master of Arts in Counseling after completing a BS in Sociology from Charleston Southern University. She has 8 years post-graduate experience working with children, teens, and families. She has advanced certification as a Grief Specialist. She loves working with teens and adolescents as well as adults.         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - child
+        - young-adolescent
+        - teen
+        - adult
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - dbt
+        - trauma-informed
+        - anxiety
+        - depression
+        - grief
+        - reunification
+        - sandtray
+        - not-applicable
 
   - id: kelsey-cuomo
     name: Kelsey Cuomo
@@ -293,9 +666,54 @@ members:
         <em>
          Kelsey Cuomo, MSW, LCSW-A, holds a Master of Social Work degree from Winthrop University and a Bachelor’s in Social Work from Xavier University. Kelsey has experience working with parents who have experienced the loss of a child, prenatal diagnoses, and birth trauma in the NICU and postpartum care setting. Kelsey is a Certified Clinical Trauma Professional-Level II with experience in healing from intimate partner violence, CPTSD, and more. She has also received training in trauma-informed mindfulness and somatic therapy. She is working towards her certification in EMDR and pursuing a Kink Conscious Certification, further broadening her ability to provide comprehensive and inclusive therapeutic support.</em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - emdr
+        - internal-family-systems
+        - trauma-informed
+        - tf-cbt
+        - anxiety
+        - depression
+        - sandtray
+        - gottman
+        - sex
+        - lgbtqia
+        - domestic-violence
+        - psychosis
+        - somatic
+        - polyvagal
+        - anti-colonial
+        - non-monogamy
+        - not-applicable
 
   - id: molly-carroll
-    name: Mary 'Molly' Carroll 
+    name: Mary 'Molly' Carroll
     letters: LCSW-A
     title: Clinician
     image: /headshots/headshot-molly-carroll-500.jpg
@@ -322,6 +740,52 @@ members:
           Molly Carroll, MSW, LCSW-A, holds a Master of Social Work degree from The University of North Carolina at Chapel Hill and earned a Bachelor of Social Work degree from Belmont University in Nashville, TN. Molly specializes in working with children, adolescents, and adults seeking healing from the effects of complex trauma. Molly has a wide range of experiences from working in schools to help children regulate their emotions to supporting individuals experiencing mental health crises in an urgent care setting.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - young-adolescent
+        - teen
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - emdr
+        - internal-family-systems
+        - dbt
+        - trauma-informed
+        - anxiety
+        - borderline-personality-disorder
+        - adhd
+        - kink-allied
+        - non-monogamy
+        - sex-worker-allied
+        - self-esteem
+        - lgbtqia
+        - tf-cbt
+        - trauma
+        - sandtray
+        - not-applicable
 
   - id: hannah-travis
     name: Hannah Travis
@@ -336,9 +800,41 @@ members:
       </p>
       <p>
         <em>
-          Hannah Travis is a Licensed Clinical Social Worker. She earned Bachelor’s degrees in Psychology and Communication Studies and a Masters in Social Work, all from the University of North Carolina Wilmington. With over 8 years of experience in the field, Hannah brings a compassionate, client-centered, and holistic approach to therapy. Whether you’re dealing with stress, trauma, self-esteem issues, or simply seeking personal growth, she is here to provide a safe and non-judgmental space where you can work together to find solutions and enhance your overall quality of life. Hannah is available for telehealth sessions only. 
+          Hannah Travis is a Licensed Clinical Social Worker. She earned Bachelor’s degrees in Psychology and Communication Studies and a Masters in Social Work, all from the University of North Carolina Wilmington. With over 8 years of experience in the field, Hannah brings a compassionate, client-centered, and holistic approach to therapy. Whether you’re dealing with stress, trauma, self-esteem issues, or simply seeking personal growth, she is here to provide a safe and non-judgmental space where you can work together to find solutions and enhance your overall quality of life. Hannah is available for telehealth sessions only.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+      specialty:
+        - cbt
+        - grief
+        - sandtray
+        - psychosis
+        - not-applicable
 
   - id: julie-finelli
     name: Julie Finelli
@@ -360,7 +856,7 @@ members:
         empathy, non-judgment, warmth, and encouragement. Currently, my approach is primarily
         informed by strengths-based cognitive behavioral therapy, acceptance and commitment therapy,
         internal family systems, and EMDR. I invite feedback and strive to create an enviroment and practice that
-        is affirming to all and trauma-informed. 
+        is affirming to all and trauma-informed.
       </p>
       <p>
         <em>
@@ -373,6 +869,42 @@ members:
           stay-at-home parent.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - anxiety
+        - depression
+        - emdr
+        - dbt
+        - trauma-informed
+        - autism
+        - adhd
+        - sandtray
+        - not-applicable
 
   - id: hannah-wagers
     name: Hannah Wagers
@@ -417,6 +949,38 @@ members:
           has experience working with teens, young adults, and adults.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - anxiety
+        - depression
+        - grief
+        - sandtray
+        - not-applicable
 
   - id: emily-lee
     name: Emily Lee
@@ -478,6 +1042,42 @@ members:
           and Anxiety Disorders through Postpartum Support International.
         </em>
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - emdr
+        - internal-family-systems
+        - perinatal
+        - anxiety
+        - depression
+        - gottman
+        - brainspotting
+        - sandtray
+        - not-applicable
 
   - id: kacey-scheuerman
     name: Kacey Scheuerman
@@ -527,6 +1127,41 @@ members:
           adolescents.
         </em>
       </p>"
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - emdr
+        - internal-family-systems
+        - trauma-informed
+        - borderline-personality-disorder
+        - trauma
+        - sandtray
+        - not-applicable
 
   - id: jessie-ogienko
     name: Jessie Ogienko
@@ -599,6 +1234,48 @@ members:
         </a>
         .
       </p>
+    tags:
+      insurance:
+        - "bcbs"
+        - "united-healthcare-community"
+        - "healthy-blue"
+        - "aetna"
+        - "amerihealth"
+        - "partners"
+        - "alliance"
+        - "carolina-compete"
+        - "trillium"
+        - "wellcare"
+        - "other"
+        - "out-of-pocket"
+        - "out-of-network"
+        - "self-pay"
+        - "reduced-rate"
+      demographic:
+        - adult
+        - couple
+      available:
+        - wait
+      location:
+        - either
+        - online
+        - in-person
+      specialty:
+        - cbt
+        - emdr
+        - brainspotting
+        - internal-family-systems
+        - trauma-informed
+        - tf-cbt
+        - anxiety
+        - depression
+        - sandtray
+        - tac-trained-adoption
+        - gottman
+        - animal-assisted
+        - psychosis
+        - trauma
+        - not-applicable
 
   - id: cathy-dobbs
     name: Cathy Dobbs
@@ -631,6 +1308,6 @@ members:
     bio:
       <p>
         <em>
-           Storm (formally known as TAA Calm in the Storm) is an Australian Shepherd puppy. He is an AKC Therapy Dog, AKC Canine Good Citizen, and AKC S.T.A.R. Puppy. He currently provides licks and wiggles with his owner, Jessie Ogienko, LCSW. 
+           Storm (formally known as TAA Calm in the Storm) is an Australian Shepherd puppy. He is an AKC Therapy Dog, AKC Canine Good Citizen, and AKC S.T.A.R. Puppy. He currently provides licks and wiggles with his owner, Jessie Ogienko, LCSW.
         </em>
       </p>
